@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AP Engraving | Custom Laser Engraving UK</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 40px 20px;
+    background: black;
+}
+
+header img {
+    max-width: 220px;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.product {
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    width: 260px;
+}
+
+.price {
+    font-size: 20px;
+    color: gold;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background: gold;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #d4af37;
+}
+
+footer {
+    padding: 20px;
+    background: black;
+    font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="logo.png" alt="AP Engraving Logo">
+    <h1>AP Engraving</h1>
+    <p>Precision custom laser engraving.<br>
+    Personalised gifts & bespoke designs.<br>
+    From family portraits to pets.</p>
+</header>
+
+<section>
+<h2>Our Products</h2>
+<div class="products">
+
+<div class="product">
+    <h3>10x10cm Slate Coaster</h3>
+    <p class="price">£5 each or 4 for £15</p>
+</div>
+
+<div class="product">
+    <h3>20x20cm Love Heart Slate</h3>
+    <p class="price">£15 each</p>
+    <p>Can be hung on wall</p>
+</div>
+
+</div>
+<p>Postage: £3.99 (UK)</p>
+</section>
+
+<section>
+<h2>Place Your Order</h2>
+
+<form action="https://formsubmit.co/ap.engraving1@gmail.com" method="POST" enctype="multipart/form-data">
+
+<input type="hidden" name="_subject" value="New AP Engraving Order!">
+<input type="hidden" name="_captcha" value="false">
+
+<label>Your Name</label>
+<input type="text" name="Name" required>
+
+<label>Email Address</label>
+<input type="email" name="Email" required>
+
+<label>WhatsApp Number</label>
+<input type="text" name="Phone" required>
+
+<label>Select Product</label>
+<select name="Product" required>
+    <option value="">Choose...</option>
+    <option>10x10cm Coaster (£5 each / 4 for £15)</option>
+    <option>20x20cm Love Heart (£15 each)</option>
+</select>
+
+<label>Quantity</label>
+<input type="number" name="Quantity" min="1" required>
+
+<label>Text to Engrave</label>
+<textarea name="Engraving Text" rows="4"></textarea>
+
+<label>Upload Image (if needed)</label>
+<input type="file" name="Image Upload">
+
+<label>Delivery Address</label>
+<textarea name="Delivery Address" rows="3" required></textarea>
+
+<button type="submit">Submit Order</button>
+
+</form>
+</section>
+
+<footer>
+<p>Contact us:</p>
+<p>Email: ap.engraving1@gmail.com</p>
+<p>WhatsApp: 07510 655404</p>
+<p>United Kingdom | Custom Laser Engraving</p>
+</footer>
+
+</body>
+</html>
