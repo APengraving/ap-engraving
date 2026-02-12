@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AP Engraving</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {font-family: Arial; margin:0; background:#111; color:white; text-align:center;}
+header {padding:40px; background:black;}
+h1 {font-size:36px;}
+section {padding:40px 20px;}
+.products {display:flex; flex-wrap:wrap; justify-content:center; gap:20px;}
+.product {background:#1c1c1c; padding:20px; border-radius:10px; width:250px;}
+.price {color:gold; font-size:18px;}
+form {max-width:500px; margin:auto; text-align:left;}
+input, textarea, select {width:100%; padding:10px; margin-bottom:15px; border:none; border-radius:5px;}
+button {background:gold; padding:15px; border:none; width:100%; border-radius:5px; font-weight:bold;}
+footer {background:black; padding:20px; margin-top:40px;}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>AP Engraving</h1>
+<p>Precision custom laser engraving.<br>
+Personalised gifts & bespoke designs.<br>
+From family portraits to pets.</p>
+</header>
+
+<section>
+<h2>Our Products</h2>
+
+<div class="products">
+
+<div class="product">
+<h3>10x10cm Slate Coaster</h3>
+<p class="price">£5 each or 4 for £15</p>
+</div>
+
+<div class="product">
+<h3>20x20cm Love Heart Slate</h3>
+<p class="price">£15 each</p>
+<p>Wall hanging design</p>
+</div>
+
+</div>
+
+<p><strong>UK Postage: £3.99</strong></p>
+</section>
+
+<section>
+<h2>Place Your Order</h2>
+
+<form action="https://formsubmit.co/ap.engraving1@gmail.com" method="POST" enctype="multipart/form-data">
+
+<input type="hidden" name="_subject" value="New AP Engraving Order">
+<input type="hidden" name="_captcha" value="false">
+
+<label>Your Name</label>
+<input type="text" name="Name" required>
+
+<label>Email</label>
+<input type="email" name="Email" required>
+
+<label>WhatsApp Number</label>
+<input type="text" name="Phone" required>
+
+<label>Select Product</label>
+<select name="Product" required>
+<option value="">Choose</option>
+<option>10x10cm Coaster (£5 each / 4 for £15)</option>
+<option>20x20cm Love Heart (£15 each)</option>
+</select>
+
+<label>Quantity</label>
+<input type="number" name="Quantity" min="1" required>
+
+<label>Text To Engrave</label>
+<textarea name="Text"></textarea>
+
+<label>Upload Image (Optional)</label>
+<input type="file" name="Image">
+
+<label>Delivery Address</label>
+<textarea name="Address" required></textarea>
+
+<button type="submit">Submit Order</button>
+
+</form>
+
+</section>
+
+<footer>
+<p>Email: ap.engraving1@gmail.com</p>
+<p>WhatsApp: 07510 655404</p>
+<p>United Kingdom</p>
+</footer>
+
+</body>
+</html>
